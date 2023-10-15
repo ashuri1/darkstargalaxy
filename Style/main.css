@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #36393f;
+    background-color: #181818;
     color: #fff;
 }
 header {
@@ -28,7 +28,27 @@ header .logo img {
     width: 100%;
     height: 100%;
 }
+
+
+/*Body*/
+
+
 main {
+    position: relative;
     padding: 30px;
     text-align: center;
+}
+main .pageHeader {
+    background: #1f1f1f;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20px;
+}
+main .pageBox {
+    position: relative;
+    background: #1f1f1f;
+    float: left;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 20px;
 }
